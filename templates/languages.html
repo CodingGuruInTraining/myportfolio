@@ -1,0 +1,25 @@
+{%  extends 'layout.html' %}
+
+{% block body %}
+
+    <h2>Programming Languages:</h2>
+    <table>
+        <thead>
+            <tr>
+                <td>Name</td>
+                <td>Skill (out of 5)</td>
+            </tr>
+        </thead>
+
+        <tbody>
+            {% for foo in items %}
+                <tr>
+                    <td>{{ foo.language }}</td>
+                    <td>{{ foo.rating }}</td>
+                </tr>
+            {% endfor %}
+
+        </tbody>
+    </table>
+
+{% endblock %}
