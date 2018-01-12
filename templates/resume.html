@@ -4,14 +4,64 @@
 
     <div>
         <h2>Education</h2>
+
+        {% for item in data %}
+
+            <p>{{item.edu.it}}</p>
+            <p>{{item.edu.itschool}}</p>
+            <p>{{item.edu.itextra}}</p>
+            <br>
+            <p>{{item.edu.psy}}</p>
+            <p>{{item.edu.psyschool}}</p>
+
+        {% endfor %}
     </div>
 
     <div>
         <h2>Related Experience</h2>
+
+        {% for item in data %}
+
+            <p>{{item.exp1.title}}</p>
+            <p>{{item.exp1.length}}</p>
+            <p>{{item.exp1.org}}</p>
+            <p>{{item.exp1.loc}}</p>
+            <ul>
+                {% for task in item.exp1.tasks %}
+                    <li>{{task}}</li>
+                {% endfor %}
+            </ul>
+
+            <p>{{item.exp2.title}}</p>
+            <p>{{item.exp2.length}}</p>
+            <p>{{item.exp2.org}}</p>
+            <p>{{item.exp2.loc}}</p>
+            <ul>
+                {% for task in item.exp2.tasks %}
+                    <li>{{task}}</li>
+                {% endfor %}
+            </ul>
+
+        {% endfor %}
+
     </div>
 
     <div>
         <h2>Additional Experience</h2>
+
+        {% for item in data %}
+
+            <p>{{item.exp3.title}}</p>
+            <p>{{item.exp3.length}}</p>
+            <p>{{item.exp3.org}}</p>
+            <p>{{item.exp3.loc}}</p>
+            <ul>
+                {% for task in item.exp3.tasks %}
+                    <li>{{task}}</li>
+                {% endfor %}
+            </ul>
+
+        {% endfor %}
     </div>
 
 {% endblock %}
