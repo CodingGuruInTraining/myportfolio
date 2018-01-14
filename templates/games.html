@@ -4,13 +4,13 @@
 
     {% for game in items %}
 
-        <div>
+        <div class="gameDiv">
             <h3>{{ game.name }}</h3>
             <p>{{ game.description }}</p>
             <p>Language(s): {{ game.languages }}</p>
             <p>Challenges: {{ game.challenges }}</p>
             <p>Future Changes/Ideas: {{ game.futurework }}</p>
-            <p>Code Link: {{ game.github }}</p>
+            <p>Code Link: <a href="{{ game.github }}">{{game.github}}</a></p>
         </div>
 
     {% endfor %}
