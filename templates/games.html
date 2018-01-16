@@ -7,10 +7,12 @@
         <div class="gameDiv">
             <h3>{{ game.name }}</h3>
             <p>{{ game.description }}</p>
-            <p>Language(s): {{ game.languages }}</p>
+            <p>Design/Features: {{game.design}}</p>
             <p>Challenges: {{ game.challenges }}</p>
+            <p>Language(s): {{ game.languages }}</p>
             <p>Future Changes/Ideas: {{ game.futurework }}</p>
             <p>Code Link: <a href="{{ game.github }}">{{game.github}}</a></p>
+            <img src="{{game.piclink}}">
         </div>
 
     {% endfor %}

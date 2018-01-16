@@ -7,7 +7,8 @@ def gamesFunction():
             'languages': 'Java',
             'challenges': 'Making the bricks scale with the window size, which taught me things I can apply in future games.',
             'futurework': 'Add levels of difficulty, Make different brick patterns',
-            'github': 'https://github.com/mark-fox/Breakout'
+            'github': 'https://github.com/mark-fox/Breakout',
+            'piclink': './static/pics/breakout.gif'
         },
         {
             'id': 2,
