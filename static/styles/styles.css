@@ -33,6 +33,9 @@ body {
 .homeDiv {
     text-align: center;
 }
+.homeDiv img {
+    margin: auto;
+}
 
 
 
@@ -40,6 +43,13 @@ body {
 /*########################         GAMES          #########################*/
 /*#########################################################################*/
 .gameDiv {
+    float: right;
+    display: block;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.gameInfoDiv {
     width: 30%;
     background-color: #73c3b7;
     padding: 10px;
@@ -48,12 +58,14 @@ body {
     margin-bottom: 25px;
 }
 
-.gameDiv p, .gameDiv h3 {
+.gameInfoDiv p, .gameInfoDiv h3 {
     color: #464646;
 }
 
+.gameInfoDiv {
+    float: left;
+}
+
 .gameDiv img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 25px;
 }
