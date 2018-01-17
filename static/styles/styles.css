@@ -33,6 +33,11 @@ body {
 .homeDiv {
     text-align: center;
 }
+
+.homeDiv h1 {
+    font-size: 100px;
+}
+
 .homeDiv img {
     margin: auto;
 }
@@ -43,29 +48,92 @@ body {
 /*########################         GAMES          #########################*/
 /*#########################################################################*/
 .gameDiv {
-    float: right;
-    display: block;
-    margin-left: 25px;
-    margin-right: 25px;
+    /*float: right;*/
+    display: inline-flex;
+    /*margin-left: 25px;*/
+    /*margin-right: 25px;*/
+    margin: 30px;
+    /*width: 50%;*/
+    /*vertical-align: center;*/
+    /*horiz-align: center;*/
+    /*position: inherit;*/
 }
 
 .gameInfoDiv {
     width: 30%;
     background-color: #73c3b7;
-    padding: 10px;
+    /*padding: 10px;*/
+    padding-left: 25px;
+    padding-right: 25px;
     margin: auto;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    /*margin-top: 25px;*/
+    /*margin-bottom: 25px;*/
+    display: inline;
+    /*float: left;*/
 }
 
 .gameInfoDiv p, .gameInfoDiv h3 {
     color: #464646;
+
 }
 
-.gameInfoDiv {
-    float: left;
+.gameImgDiv {
+    /*width: 20%;*/
+    display: inline;
+    margin: auto;
+}
+/*.gameDiv img {*/
+    /*!*margin: 25px;*!*/
+    /*float: right;*/
+    /*!*display: inline;*!*/
+/*}*/
+
+
+
+/*#########################################################################*/
+/*########################       LANGUAGES        #########################*/
+/*#########################################################################*/
+.langTable {
+    /*border-collapse: collapse;*/
+    /*border: 5px solid black;*/
+    padding: 10px;
+    vertical-align: middle;
 }
 
-.gameDiv img {
-    margin: 25px;
+.langTable thead {
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    border-bottom-width: thick;
+    vertical-align: bottom;
+}
+
+.langTable tbody tr:nth-child(odd) {
+    background-color: #636363;
+}
+
+.langTable tbody tr:hover {
+    background-color: #73c3b7;
+    color: #3d3cff;
+}
+
+.langTable tbody {
+    /*border: 2px solid black;*/
+}
+
+.langCell {
+    text-align: left;
+}
+
+.ratingCell {
+    text-align: center;
+}
+
+
+
+/*#########################################################################*/
+/*########################        CONTACT         #########################*/
+/*#########################################################################*/
+.contactDiv a {
+    color: white;
 }
