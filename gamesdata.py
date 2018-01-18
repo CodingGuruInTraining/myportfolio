@@ -12,7 +12,7 @@ def gamesFunction():
                           'apply in future games.',
             'futurework': 'Add levels of difficulty, Make different brick patterns, Implement online database',
             'github': 'https://github.com/mark-fox/Breakout',
-            'piclink': 'http://i38.photobucket.com/albums/e120/foxm47/breakout_zpsh9n2bz03.gif',
+            'piclink': 'https://farm5.staticflickr.com/4617/39720630382_db5a2e791e_o.gif',
             'design': 'This game uses OOP to separate the different objects and allow for '
                       'custom methods and features. There is a "manager" class that coordinates '
                       'the object method calls as well as the game loop. Objects are drawn onto '
