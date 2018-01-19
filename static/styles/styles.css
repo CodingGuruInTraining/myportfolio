@@ -102,17 +102,30 @@ body {
 /*#########################################################################*/
 
 .projDiv {
-    width: 30%;
-    margin: auto;
-    margin-bottom: 30px;
+    /*width: 30%;*/
+    margin: 30px;
+    /*margin-bottom: 30px;*/
     text-align: justify;
-    background-color: rgba(74, 194, 50, 0.71);
-    padding: 25px;
+    /*background-color: rgba(74, 194, 50, 0.71);*/
+    /*padding: 25px;*/
     color: #464646;
+    display: inline-flex;
 }
 
+.projInfoDiv {
+    background-color: rgba(74, 194, 50, 0.71);
+    width: 30%;
+    padding: 25px;
+    display: inline;
+    float: left;
+    margin: auto;
+}
 
-
+.projImgDiv {
+    display: inline;
+    margin: auto;
+    float: right;
+}
 
 
 

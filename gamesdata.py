@@ -45,7 +45,10 @@ def gamesFunction():
                            'first learned about this game version while watching an '
                            'episode of The Big Bang Theory. This is my online game version '
                            'that uses web-sockets to allow real-time game results. Any '
-                           'number of players can join and play against each other.',
+                           'number of players can join and play against each other. The '
+                           'game will not work with only one player, but one can open the '
+                           'game on a second browser tab should they wish to play against '
+                           'themselves.',
             'languages': 'JavaScript web-sockets, HTML, CSS',
             'challenges': 'Learning how to use web-sockets, Determining active players',
             'futurework': 'Fine-tune active player detection, "Invite Your Friends" link',
