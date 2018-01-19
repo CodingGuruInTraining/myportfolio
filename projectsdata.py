@@ -31,7 +31,7 @@ def projectsFunction():
             'futurework': 'Creating custom users with a public profile page, Implementing a points system '
                           'for leveling up one\'s account, Adding location and filters',
             'github': 'https://github.com/mark-fox/WhatWouldYouDoForADollar_v0.1',
-            'piclink': '',
+            'piclink': 'https://farm5.staticflickr.com/4611/39752491732_52da87b8d9_o.png',
             'design': 'This website was created using Python Flask along with SQLAlchemy. The table grabs '
                       'all entries from the database and displays them whiling also linking each entry to '
                       'its own page. Newly created tasks are added to the database upon submission.'
