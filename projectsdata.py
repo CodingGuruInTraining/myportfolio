@@ -3,9 +3,11 @@ def projectsFunction():
         {
             'id': 1,
             'name': 'Portfolio (this one!)',
-            'description': 'I created this portfolio website from scratch.',
+            'description': 'I created this portfolio website from scratch. What better way to show one\'s '
+                           'webpage-making skills than to actually make one! It may not be the flashiest, '
+                           'but it is my own.',
             'languages': 'Python/Flask, HTML, CSS',
-            'challenges': 'Designing and styling website',
+            'challenges': 'Designing the look and styling website',
             'futurework': 'Adding future projects',
             'github': '',
             'piclink': '',
@@ -17,7 +19,7 @@ def projectsFunction():
         },
         {
             'id': 2,
-            'name': 'Soul Bazaar (working title)',
+            'name': 'What Would You Do For A Dollar? (working title)',
             'description': 'This is meant to be a website for exchanging simple services among a community. '
                            'The idea is that if someone does not want to do something (i.e. shovel the '
                            'driveway, pickup dry-cleaning, fix bicycle, etc.) they can post their task here '
@@ -25,10 +27,10 @@ def projectsFunction():
                            'and the task owner can offer anything they feel fit (i.e. bag of marbles, red '
                            'paperclip, autographed baseball, etc.).',
             'languages': 'Python/Flask, SQLAlchemy, HTML, CSS',
-            'challenges': '',
+            'challenges': 'Implementing WTForms Login system',
             'futurework': 'Creating custom users with a public profile page, Implementing a points system '
                           'for leveling up one\'s account, Adding location and filters',
-            'github': '',
+            'github': 'https://github.com/mark-fox/WhatWouldYouDoForADollar_v0.1',
             'piclink': '',
             'design': 'This website was created using Python Flask along with SQLAlchemy. The table grabs '
                       'all entries from the database and displays them whiling also linking each entry to '
