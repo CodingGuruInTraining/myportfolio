@@ -7,7 +7,12 @@
         <div class="gameDiv">
             <div class="gameInfoDiv">
                 <h3>{{ game.name }}</h3>
-                <p>{{ game.description }}</p>
+                <p>{{ game.description }} </p>
+
+                    {% if game.gamelink %}
+                        <p><a href="{{ game.gamelink }}">Game Link</a></p>
+                    {% endif %}
+
                 <p>Design/Features: {{game.design}}</p>
                 <p>Challenges: {{ game.challenges }}</p>
                 <p>Language(s): {{ game.languages }}</p>
@@ -15,7 +20,7 @@
                 <p>Code Link: <a href="{{ game.github }}">GitHub</a></p>
             </div>
             <div class="gameImgDiv">
-            <img src="{{game.piclink}}">
+            <img src="{{ game.piclink }}">
             </div>
         </div>
 

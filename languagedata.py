@@ -33,7 +33,7 @@ def langFunction():
         {
             'id': 7,
             'language': 'JavaScript',
-            'rating': 3
+            'rating': 2
         },
         {
             'id': 8,

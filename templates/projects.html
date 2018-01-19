@@ -2,4 +2,18 @@
 
 {% block body %}
 
+    {% for item in items %}
+
+        <div class="projDiv">
+            <h3>{{ item.name }}</h3>
+            <p>{{ item.description }}</p>
+            <p>Design/Features: {{ item.design }}</p>
+            <p>Challenges: {{ item.challenges }}</p>
+            <p>Language(s): {{ item.languages }}</p>
+            <p>Future Changes/Ideas: {{ item.futurework }}</p>
+            <p>Code Link: <a href="{{ item.github }}">GitHub</a></p>
+        </div>
+
+    {% endfor %}
+
 {% endblock %}

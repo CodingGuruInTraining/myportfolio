@@ -2,6 +2,7 @@ from flask import Flask, render_template
 from gamesdata import gamesFunction
 from languagedata import langFunction
 from resumedata import resumeFunction
+from projectsdata import projectsFunction
 
 
 app = Flask(__name__)
@@ -9,6 +10,7 @@ app = Flask(__name__)
 gamesData = gamesFunction()
 langData = langFunction()
 resumeData = resumeFunction()
+projData = projectsFunction()
 
 
 @app.route('/')
@@ -23,7 +25,7 @@ def gamesPage():
 
 @app.route('/projects')
 def projectsPage():
-    return render_template('projects.html')
+    return render_template('projects.html', items = projData)
 
 
 @app.route('/resume')

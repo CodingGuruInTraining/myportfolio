@@ -10,7 +10,8 @@ def gamesFunction():
             'languages': 'Java',
             'challenges': 'Making the bricks scale with the window size, which taught me things I can '
                           'apply in future games.',
-            'futurework': 'Add levels of difficulty, Make different brick patterns, Implement online database',
+            'futurework': 'Add levels of difficulty, Make different brick patterns, Implement '
+                          'online database',
             'github': 'https://github.com/mark-fox/Breakout',
             'piclink': 'https://farm5.staticflickr.com/4617/39720630382_db5a2e791e_o.gif',
             'design': 'This game uses OOP to separate the different objects and allow for '
@@ -36,6 +37,29 @@ def gamesFunction():
                       'Sprite sheets were used for the characters while the background uses static '
                       'images. Each aspect of the game is drawn with custom scaling values, which '
                       'allows the game to scale with the screen size.'
+        },
+        {
+            'id': 3,
+            'name': 'Rock Paper Scissors Lizard Spock',
+            'description': 'Here is a classic game of rock paper scissors lizard spock! I '
+                           'first learned about this game version while watching an '
+                           'episode of The Big Bang Theory. This is my online game version '
+                           'that uses web-sockets to allow real-time game results. Any '
+                           'number of players can join and play against each other.',
+            'languages': 'JavaScript web-sockets, HTML, CSS',
+            'challenges': 'Learning how to use web-sockets, Determining active players',
+            'futurework': 'Fine-tune active player detection, "Invite Your Friends" link',
+            'github': 'https://github.com/mark-fox/RockPaperScissors_v0.2',
+            'piclink': 'https://farm5.staticflickr.com/4752/39740894192_db0123526a_o.gif',
+            'design': 'With the use of web-sockets, the game is able to stay connected '
+                      'with all active players at a time. When a new player joins, they are '
+                      'added to the list of users and a message is sent to all other active '
+                      'players alerting them of the newcomer. The server uses this count '
+                      'to determine whether it has received all player inputs before '
+                      'proceeding with the results. Once all players have made their '
+                      'selection, the server will determine the winners and display the '
+                      'results to everyone. ',
+            'gamelink': 'http://rockpaperscissorsv2.herokuapp.com/'
         }
     ]
     return gamesList
