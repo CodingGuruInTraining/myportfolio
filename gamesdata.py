@@ -32,7 +32,7 @@ def gamesFunction():
             'challenges': 'First time working with sprite animations and state changes',
             'futurework': 'Adding levels, bosses, more actions, and more',
             'github': 'https://github.com/mark-fox/NinjaZombieScroller_v0.1',
-            'piclink': '',
+            'piclink': 'https://farm5.staticflickr.com/4723/24932315377_62001951bb_o.gif',
             'design': 'A SurfaceView is used along with a canvas to draw each object to the screen. '
                       'Sprite sheets were used for the characters while the background uses static '
                       'images. Each aspect of the game is drawn with custom scaling values, which '

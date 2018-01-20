@@ -9,8 +9,8 @@ def projectsFunction():
             'languages': 'Python/Flask, HTML, CSS',
             'challenges': 'Designing the look and styling website',
             'futurework': 'Adding future projects',
-            'github': '',
-            'piclink': '',
+            'github': 'https://github.com/mark-fox/Portfolio',
+            'piclink': 'https://farm5.staticflickr.com/4752/24932387207_e58b8c4c3e_o.png',
             'design': 'This website was created using Python Flask for the "server" part and, of course, '
                       'HTML/CSS for the visual side. I stored most of the data in separate .py files so '
                       'it would be easier to add and update as needed. This allowed me to loop over the '
