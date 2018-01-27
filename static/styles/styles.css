@@ -160,11 +160,17 @@ body {
 /*#########################################################################*/
 /*########################       LANGUAGES        #########################*/
 /*#########################################################################*/
+#langDiv {
+    width: 30%;
+    margin: auto;
+}
+
 .langTable {
     /*border-collapse: collapse;*/
     /*border: 5px solid black;*/
     padding: 10px;
     vertical-align: middle;
+    margin: auto;
 }
 
 .langTable thead {
@@ -190,6 +196,7 @@ body {
 
 .langCell {
     text-align: left;
+    padding: 2px;
 }
 
 .ratingCell {
@@ -201,6 +208,11 @@ body {
 /*#########################################################################*/
 /*########################        CONTACT         #########################*/
 /*#########################################################################*/
+.contactDiv {
+    width: 30%;
+    margin: auto;
+}
+
 .contactDiv a {
     color: white;
 }

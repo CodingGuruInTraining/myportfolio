@@ -2,25 +2,25 @@
 
 {% block body %}
 
-    <h2>Programming Languages:</h2>
-    <p>The table below lists the programming languages I have worked with as well as my estimated skill level with 5 being an expert.</p>
-    <table class="langTable">
-        <thead>
-            <tr>
-                <td>Name</td>
-                <td>Skill</td>
-            </tr>
-        </thead>
-
-        <tbody>
-            {% for foo in items %}
+    <div id="langDiv">
+        <h2>Programming Languages:</h2>
+        <p>The table below lists the programming and database languages I have worked with.</p>
+        <table class="langTable">
+            <thead>
                 <tr>
-                    <td class="langCell">{{ foo.language }}</td>
-                    <td class="ratingCell">{{ foo.rating }}</td>
+                    <td>Name</td>
                 </tr>
-            {% endfor %}
+            </thead>
 
-        </tbody>
-    </table>
+            <tbody>
+                {% for foo in items %}
+                    <tr>
+                        <td class="langCell">{{ foo.language }}</td>
+                    </tr>
+                {% endfor %}
+
+            </tbody>
+        </table>
+    </div>
 
 {% endblock %}
