@@ -54,46 +54,28 @@ body {
 /*########################         GAMES          #########################*/
 /*#########################################################################*/
 .gameDiv {
-    /*float: right;*/
     display: inline-flex;
-    /*margin-left: 25px;*/
-    /*margin-right: 25px;*/
     margin: 30px;
-    /*width: 50%;*/
-    /*vertical-align: center;*/
-    /*horiz-align: center;*/
-    /*position: inherit;*/
     text-align: justify;
 }
 
 .gameInfoDiv {
     width: 30%;
     background-color: #73c3b7;
-    /*padding: 10px;*/
     padding-left: 25px;
     padding-right: 25px;
     margin: auto;
-    /*margin-top: 25px;*/
-    /*margin-bottom: 25px;*/
     display: inline;
-    /*float: left;*/
 }
 
 .gameInfoDiv p, .gameInfoDiv h3 {
     color: #464646;
-
 }
 
 .gameImgDiv {
-    /*width: 20%;*/
     display: inline;
     margin: auto;
 }
-/*.gameDiv img {*/
-    /*!*margin: 25px;*!*/
-    /*float: right;*/
-    /*!*display: inline;*!*/
-/*}*/
 
 
 
@@ -103,12 +85,8 @@ body {
 /*#########################################################################*/
 
 .projDiv {
-    /*width: 30%;*/
     margin: 30px;
-    /*margin-bottom: 30px;*/
     text-align: justify;
-    /*background-color: rgba(74, 194, 50, 0.71);*/
-    /*padding: 25px;*/
     color: #464646;
     display: inline-flex;
 }
@@ -153,10 +131,6 @@ body {
 
 
 
-
-
-
-
 /*#########################################################################*/
 /*########################       LANGUAGES        #########################*/
 /*#########################################################################*/
@@ -166,8 +140,6 @@ body {
 }
 
 .langTable {
-    /*border-collapse: collapse;*/
-    /*border: 5px solid black;*/
     padding: 10px;
     vertical-align: middle;
     margin: auto;
@@ -190,10 +162,6 @@ body {
     color: #3d3cff;
 }
 
-.langTable tbody {
-    /*border: 2px solid black;*/
-}
-
 .langCell {
     text-align: left;
     padding: 2px;
@@ -202,6 +170,7 @@ body {
 .ratingCell {
     text-align: center;
 }
+
 
 
 
